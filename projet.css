@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap; /*Rendre la page responsive*/
+    line-height: 1.5;
+    /* font-size: 30px; */
+}
+
+/* Header */
+
+header{
+    background-color: black;
+    height: 100px;
+    display: flex; /*Alligne les éléments de gauche et droite sur une meme ligne.*/
+    justify-content: space-between;
+    align-items: center; /*centre verticalement les éléments*/
+    /* padding: 10px 40px; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 1); */
+
+}
+
+.header-left{
+    color: white;
+    padding-left: 50px ;
+}
+
+strong{
+    color: rgb(208, 92, 49);
+}
+
+.header-right{
+    padding-right: 50px;
+}
+.menu{
+    /* list-style: none; */
+    display: flex;
+    gap: 50px; /*Mets les espaces entre les éléments*/
+    
+}
+
+.menu li a{
+    text-decoration: none; /*Supprime le soulignement*/
+    color: white;
+}
+.menu li a:hover{
+    color:rgb(208, 92, 49);
+}
+
+/* Accueil */
+#accueil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    font-size: 30px;
+    background-color: bisque;
+}
+div.acceuil1{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100px; */
+}
+#accueil img{
+    height: 250px;
+}
+
+/* A propos */
+#a_propos{
+    background-color: aliceblue;
+    height: 350px;
+}
+#a_propos h2{
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(208, 92, 49);
+    font-size: 50px;
+}
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 40px; */
+}
+.content1{
+    padding-left: 10%;
+}
+.about-image{
+    padding-right: 10%;
+
+}
+.about-image img{
+    border-radius: 50%;
+    border: 5px solid rgb(208, 92, 49);
+}
+
+/* Projets */
+#mes_projets h2, #mes_competences h2{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    color:rgb(208, 92, 49);
+    font-size: 50px;
+}
+.projets{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.projet-item{
+    background-color: aliceblue;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Mes compétences */
+#mes_competences{
+    background-color: aliceblue;
+    margin-top: 100px;
+    height: 500px;
+    /* display: flex; */ 
+}
+.competence-item{
+    /* background-color: white; */
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 80px;
+    align-items: center;
+}
+.right{
+    padding-right: 10px;
+}
+.left{
+    padding-left: 10px;
+}
+
+/* Boutons */
+.btn1{
+    height: 50px;
+    width: 150px;
+}
+.submit-btn{
+    /* height: 50px; */
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="projet.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="header-left">
+            <h2> NSONWA <strong>Bertine</strong> </h2>
+        </div>
+        
+        <div class="header-right">
+            <nav>
+                <ul class="menu">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#a_propos">A propos</a></li>
+                    <li><a href="#mes_projets">Projets</a></li>
+                    <li><a href="#mes_competences">Compétences</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div id="accueil">
+            <div class="acceuil1">
+                <p>Je suis <span>Bertine</span>, Développeuse en devenir passionnée par le web et le design!</p>
+                <button class="submit-btn btn1">Voir mes projets</button>
+            </div>
+            <img src="pictures/1750062708037.jpg" alt="image illustrative">
+        </div>
+
+        <div id="a_propos">
+            <h2 class="title">A propos</h2>
+            <div class="about-content">
+                <div class="content1">
+                    <p>Je m'appelle <span>NSONWA</span>, passionnée par la création de sites web modernes et interactifs.</p>
+                    <p>Je suis actuellement étudiante en <span>développement web</span>, 
+                        et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+                    <p>J'adore découvrir de nouveaux horizons!</p>
+                    <button class="submit-btn btn2">Télécharger mon CV</button>
+                </div>
+
+                <div class="about-image">
+                    <img src="pictures/1750046139921.jpg" alt="Une photo de profil de moi" width="200" height="200" >
+                </div>
+            </div>
+        </div>
+
+        <div id="mes_projets">
+            <h2 id="title">Mes Projets</h2>
+            <div class="projets">
+                <div class="projet-item">
+                    <p class="para1">Un mini-jeu interactif en JavaScript qui utilise des évènements DOM.</p>
+                    <p>#html, #css, #js</p>
+                    <button class="submit-btn btn3">Voir</button>
+                </div>
+                <div class="projet-item">
+                    <p class="para1">Un mini-jeu interactif en JavaScript qui utilise des évènements DOM.</p>
+                    <p>#html, #css, #js</p>
+                    <button class="submit-btn btn4">Voir</button>
+                </div>
+                <div class="projet-item">
+                    <p class="para1">Un mini-jeu interactif en JavaScript qui utilise des évènements DOM.</p>
+                    <p>#html, #css, #js</p>
+                    <button class="submit-btn btn5">Voir</button>
+                </div>
+            </div>
+        </div>
+        <div id="mes_competences">
+            <h2 id="title">Mes Compétences</h2>
+            <div class="competence-item">
+                <p class="title-com">Compétences non techniques</p>
+                <label for="">Gestion de projet</label>
+                <input type="range" name="" value="50">
+                <label for="">Collaboration en équipe</label>
+                <input type="range" name="" value="50">
+                <label for="">Gestion de projet</label>
+                <input type="range" name="" value="50">
+                <label for="">Ponctualité</label>
+                <input type="range" name="" value="80">
+            </div>
+            <div class="competence-item">
+                <p class="title-com">Compétences techniques</p>
+                <label for="">HTML</label>
+                <input type="range" name="" value="80">
+                <label for="">CSS</label>
+                <input type="range" name="" value="70">
+                <label for="">JavaScript</label>
+                <input type="range" name="" value="30">
+                <label for="">gitHub</label>
+                <input type="range" name="" value="40">
+                <label for="">Word</label>
+                <input type="range" name="" value="80">
+            </div>         
+        </div>
+        <div id="contact">
+            <h2>Vous avez un projet <span>en tête?</span>N'hésitez pas à me <span>contacter!</span></h2>
+            <form name="contactForm" class="contact-form">
+              
+                    <div class="form-group half-width">
+                        <label for="nom">Nom :</label>
+                        <input type="text" name="nom" id="nom">
+                    </div>
+                    <div class="form-group half-width">
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" name="prenom" id="prenom">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="sujet">Sujet :</label>
+                        <input type="text" name="sujet" id="sujet">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="description">Prénom :</label>
+                        <textarea name="description" id="description" rows="4" cols=""></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn btn6">Envoyer</button>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <p class="left">Designed by <span>Bertine NSONWA</span> with HTML CSS JS</p>
+        <p class="right">&copy Tous droits réservés - 2025</p>
+    </footer>
+
+</body>
+</html>
